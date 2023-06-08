@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.boxs {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .boxone, .boxtwo, .boxthree {
+    float: left;
+    margin: 5px;
+  }
+.boxone {
+     width: 32%; 
+  }
+  .boxtwo {
+     width: 32%; 
+  }
+  .boxthree {
+     width: 32%; 
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .boxone, .boxtwo, .boxthree {
+    float: left;
+    border: 1px solid green;
+  }
+  .boxone {
+    width: 49%;
+    margin-right: 10px;
+  }
+  .boxtwo {
+    width: 49%;
+  }
+  .boxthree {
+    width: 100%;
+    margin-top: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+  .boxone, .boxtwo, .boxthree {
+    float: left;
+    border: 1px solid green;
+  }
+  .boxone {
+    width: 49%;
+    margin-right: 10px;
+  }
+  .boxtwo {
+    width: 49%;
+  }
+  .boxthree {
+    width: 100%;
+    margin-top: 10px;
+  }
+  @media (max-width: 767px) {
+  .boxone, .boxtwo, .boxthree {
+    float: left;
+    border: 1px solid green;
+  }
+  .boxone {
+    width: 100%;
+  }
+  .boxtwo {
+    width: 100%;
+  }
+  .boxthree {
+    width: 100%;
+  }
